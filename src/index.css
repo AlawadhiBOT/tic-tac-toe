@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.board-row {
+  display: flex; /* Use flex display for aligning squares horizontally */
+  justify-content: center; /* Center squares horizontally */
+  align-items: center; /* Center squares vertically */
+  padding: 0px; 
+}
+
+.square {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Same as width to make it a square */
+  background-color: #808084; /* Button background color */
+  color: white; /* Text color */
+  cursor: pointer;
+  padding: 5px;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+}
